@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather Update</h1>
+        <p>Enter the name of the town or city to get a real-time weather update.</p>
+        <input type="text" id="location-input" placeholder="e.g. New York">
+        <button onclick="getWeather()">Submit</button>
+
+        <div id="weather-display">
+
+        </div>
+        <p class="source">Data Source: <a target="_blank" href="https://openweathermap.org/">openweathermap.org</a></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
